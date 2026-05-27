@@ -1,10 +1,10 @@
-const STRAPI_URL = 'http://localhost:1337/api';
+const STRAPI_URL = 'https://passionate-sunshine-7ca6539f05.strapiapp.com/api';
 
 // Helper pentru preluare imagini din Strapi (care vin cu path relativ)
 export const getStrapiMedia = (url) => {
   if (url == null) return null;
   if (url.startsWith('http') || url.startsWith('//')) return url;
-  return `http://localhost:1337${url}`;
+  return `https://passionate-sunshine-7ca6539f05.strapiapp.com${url}`;
 };
 
 export const fetchProjects = async () => {
