@@ -13,7 +13,7 @@ export default function ProjectDetail() {
     const fetchSingleProject = async () => {
       try {
         // Căutăm proiectul după slug (folosind numele exact al campului din Strapi: Slug)
-        const STRAPI_URL = 'http://localhost:1337/api';
+        const STRAPI_URL = 'https://passionate-sunshine-7ca6539f05.strapiapp.com/api';
         const response = await fetch(`${STRAPI_URL}/projects?filters[Slug][$eq]=${slug}&populate=*`);
         if (!response.ok) throw new Error('Network error');
         
