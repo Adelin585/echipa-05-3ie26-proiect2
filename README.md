@@ -23,3 +23,16 @@ Acest proiect reprezintă o aplicație web completă (Full-Stack), dezvoltată f
    - Inițializarea proiectului Frontend (React + Vite) și instalarea framework-ului TailwindCSS v4.
    - Implementarea arhitecturii de routing (`react-router-dom`) și crearea structurii de bază pentru pagini (Home, About, Contact).
    - Structurarea fișierelor și a folderelor pentru componente și layout-uri (MainLayout).
+
+   Materiale bibliografice și surse/modele de inspirație
+
+Pentru realizarea acestui proiect **nu a fost folosit niciun model predefinit (template) descărcat de pe internet. Interfața vizuală, paleta de culori și arhitectura codului au fost construite 100% de la zero (custom) de către echipa noastră. 
+
+Ne-am inspirat vizual din trendurile de design web modern (Glassmorphism, tematici întunecate elegante).
+ Documentațiile oficiale și resursele grafice pe care ne-am bazat pentru dezvoltarea aplicației sunt:
+
+1. Documentația React (https://react.dev/) - pentru funcționalitățile bazate pe componente și State Management.
+2.  Tailwind CSS Docs (https://tailwindcss.com/) - pentru clasele utilitare și aplicarea conceptelor de Responsive Web Design.
+3.  Documentația Strapi v5 (https://docs.strapi.io/) - pentru crearea și gestionarea arhitecturii de tip Headless CMS.
+4.  Unsplash (https://unsplash.com/) - utilizat ca sursă oficială pentru fotografiile cu licență gratuită folosite în secțiunile Home și About.
+5.  Lucide Icons (https://lucide.dev/) - librăria vectorială folosită pentru generarea iconițelor din interfață (Contact, Dark Mode, Meniu, Search).
