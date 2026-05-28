@@ -13,3 +13,8 @@ Acest proiect reprezintă o aplicație web completă (Full-Stack), dezvoltată f
    - Stilizarea completă a paginilor folosind clase Tailwind pentru un aspect modern și premium.
    - Implementarea elementelor vizuale interactive: comutatorul Dark/Light Mode, bara de căutare (Search) și meniul de tip hamburger pentru telefoane mobile.
    - Crearea animațiilor la trecerea mouse-ului (hover effects) și aranjarea cardurilor de portofoliu.
+
+3. Cotoi Andrei - Integrare API & Deployment (DevOps)
+   - Conectarea API-ului Strapi la aplicația React prin crearea funcțiilor asincrone de fetch (preluare date).
+   - Integrarea dinamică a datelor (titluri, descrieri, imagini din baza de date) direct în paginile de Frontend.
+   - Procesul de publicare oficială a bazei de date pe platforma Strapi Cloud și deploy-ul interfeței grafice pe platforma Netlify (inclusiv configurarea redirectărilor).
